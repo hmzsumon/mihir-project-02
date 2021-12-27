@@ -1,0 +1,28 @@
+.wallet_button {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px 20px;
+  margin-left: 12px;
+  font-size: 18px;
+  font-family: "brln", sans-serif;
+  font-style: italic;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6891ed;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 7px #999;
+}
+
+.wallet_button:hover {
+  background-color: #6891ed;
+}
+
+.wallet_button:active {
+  background-color: #6891ed;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

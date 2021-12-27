@@ -1,0 +1,194 @@
+@font-face {
+	font-family: 'Academic-M54';
+	src: url('./font/ACADEMIC_M54.TTF');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'arco';
+	src: url('./font/ARCO.ttf');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'arco2';
+	src: url('./font/arco3.otf');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'brln';
+	src: url('./font/BRLNSR.TTF');
+	font-style: normal;
+}
+
+body {
+	margin: 0 auto !important;
+	font-family: 'brln', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #f9f9f9 !important;
+	overflow-x: hidden;
+	/* background: url(/src/images/sloths-bg.png) no-repeat fixed;  */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	max-width: 1400px;
+}
+
+code {
+	font-family: 'brln', sans-serif;
+}
+
+:root {
+	--main-color: #6891ed;
+	--text-color: #e7e7e7;
+	--blue: #6891ed;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'arco', 'arco2', sans-serif !important;
+}
+
+p {
+	font-family: 'brln' !important;
+	letter-spacing: 1px;
+}
+
+.small-font {
+	font-size: 16px !important;
+}
+
+.active {
+	/* background: var(--main-color); */
+	/* border-radius: 8px; */
+}
+.middeling {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+hr {
+	margin: 25px 0;
+	color: var(--text-color) !important;
+}
+.link {
+	color: var(--main-color);
+}
+.link:hover {
+	color: var(--text-color);
+}
+
+.wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+button#wallet-connect-trustwallet,
+button#wallet-connect-mathwallet,
+button#wallet-connect-tokenpocket,
+button#wallet-connect-binance\ chain\ wallet,
+a.sc-jSgvzq.sc-bYEvvW.gOOvqZ.eHcJpX.sc-ehSDrC.jxUsPl,
+a.sc-jSgvzq.sc-bYEvvW,
+a.dLsgSS,
+a.fhEmnm {
+	display: none !important;
+}
+
+.sc-eggMyH,
+.gxBphU,
+.kwzbpv,
+.cgllQK {
+	border-bottom: none !important;
+}
+
+.jCGkwA,
+.jXGSEw,
+.hxWjzo,
+.icJZux {
+	background-color: var(--blue) !important;
+	opacity: 0.5 !important;
+}
+
+.dRkkFJ,
+.dMWeoW,
+.enGsZK,
+.cRhUol {
+	border: 2px solid var(--blue) !important;
+	color: #fff !important;
+}
+
+.cKrdj,
+.gaOJzr,
+.gZgwsy,
+.eWygAy,
+.jtSYNp,
+.boCcds,
+.dLsgSS,
+.bcTHOB,
+.hufYrk {
+	fill: var(--blue) !important;
+}
+
+.gbnmUs,
+.blAmLo,
+.ldHeLF,
+.gUPczV,
+.cFaosz,
+.gmXJlb,
+.DFvIQ,
+.kCMxsx {
+	color: var(--blue) !important;
+}
+
+.fopDDk,
+.iNrdsl {
+	color: #fff !important;
+	font-family: 'brln' !important;
+	font-size: 20px !important;
+}
+
+.wallet_button.not-connected,
+.wallet_button.connected {
+	font-size: 20px !important;
+}
+
+.modal-header .btn-close {
+	color: #fff !important;
+}
+
+@media only screen and (max-width: 768px) {
+	textarea,
+	input.text,
+	input[type='text'],
+	input[type='button'],
+	input[type='submit'],
+	.input-checkbox,
+	select,
+	option {
+		-webkit-appearance: none;
+	}
+}
