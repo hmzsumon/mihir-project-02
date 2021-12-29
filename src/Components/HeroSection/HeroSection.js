@@ -320,10 +320,10 @@ const HeroSection = () => {
 		<>
 			<Wrapper id='buyasloth' className='wrapper'>
 				<Container fluid>
-					<Row className='heroTop'>
+					<Row className='heroTop mb-5'>
 						<img src={TopImg} alt='logo' className='topImg' />
 					</Row>
-					<Row className='heroContent'>
+					{/* <Row className='heroContent'>
 						<Col md={3} lg={3} xl={3} sm={12} xs={12} className='mx-auto'>
 							<div className='hero-div my-2 my-2'>
 								<img src={sloth} alt='sloth' className='headsloth' />
@@ -340,12 +340,12 @@ const HeroSection = () => {
 								</p>
 							</div>
 						</Col>
-					</Row>
+					</Row> */}
 
-					<HowItWorks />
+					{/* <HowItWorks /> */}
 
 					<div className='hero-footer'>
-						<h4 className='title mb-2'>
+						<h4 className='title mb-2 mt-5'>
 							MINT A SLOTH <br />
 						</h4>
 						<p className=''>

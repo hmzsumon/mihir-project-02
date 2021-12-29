@@ -24,9 +24,9 @@ const Home = () => {
 			<UseCases />
 			<Project />
 			<RoadmapNew />
-			<Team />
+			{/* <Team /> */}
 			{/* <RoadMap /> */}
-			<Faqs />
+			{/* <Faqs /> */}
 			{/* <Footer /> */}
 			<FooterNew />
 		</>
